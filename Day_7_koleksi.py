@@ -1,3 +1,4 @@
+# Hari 7: Struktur Koleksi List dan Dictionary
 from rich.console import Console
 from rich.table import Table
 

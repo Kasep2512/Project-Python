@@ -10,26 +10,11 @@ daftar_modul: list[dict] = [
     {"hari": 2, "topik": "Setup VS Code & Ruff", "kategori": "Setup", "selesai": True},
     {"hari": 3, "topik": "Git Lokal & Identitas", "kategori": "Git", "selesai": True},
     {"hari": 4, "topik": "GitHub & .gitignore", "kategori": "Git", "selesai": True},
-    {
-        "hari": 5,
-        "topik": "Virtual Environment (venv)",
-        "kategori": "Setup",
-        "selesai": True,
-    },
+    {"hari": 5, "topik": "Virtual Environment", "kategori": "Setup", "selesai": True},
     {"hari": 6, "topik": "Tipe Data Primitif", "kategori": "Dasar", "selesai": True},
     {"hari": 7, "topik": "Koleksi List & Dict", "kategori": "Dasar", "selesai": True},
-    {
-        "hari": 8,
-        "topik": "Alur Kontrol & Filtering",
-        "kategori": "Dasar",
-        "selesai": False,
-    },
-    {
-        "hari": 9,
-        "topik": "Fungsi & Modularitas State",
-        "kategori": "Dasar",
-        "selesai": False,
-    },
+    {"hari": 8, "topik": "Alur Kontrol", "kategori": "Dasar", "selesai": False},
+    {"hari": 9, "topik": "Fungsi", "kategori": "Dasar", "selesai": False},
 ]
 
 filter_status: str = "PENDING"

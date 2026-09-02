@@ -1,3 +1,4 @@
+# Hari 6: Tipe Data Primitif & Rich Panel
 from rich.console import Console
 from rich.panel import Panel
 
